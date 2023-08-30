@@ -21,7 +21,7 @@ mongoose.connect(url)
   .catch((error) => console.log('error connecting to MongoDB:', error.message));
 
 // Middleware
-// app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
@@ -44,6 +44,11 @@ app.post('/new', async (req, res) => {
     res.status(500).json({ error: 'DB action failed' });
   }
 });
+
+app.get('/', async (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  // res.status(200).send('../frontend/build/index.html');
+})
 
 app.all('/w/*', async (req, res) => {
   const pathKey = req.path.slice(3); // remove '/w/' from path
