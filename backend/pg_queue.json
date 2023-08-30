@@ -1,0 +1,82 @@
+{
+  "requests": [
+    {
+      "path": "5b236f24-8888-46a5-afa9-d7eb97603e56",
+      "data": {
+        "requestType": "GET",
+        "path": "5b236f24-8888-46a5-afa9-d7eb97603e56",
+        "params": {
+          "0": "5b236f24-8888-46a5-afa9-d7eb97603e56"
+        },
+        "headers": {
+          "user-agent": "PostmanRuntime/7.31.3",
+          "accept": "*/*",
+          "postman-token": "6369c899-64f5-4bed-acf0-be6c92e30f07",
+          "host": "localhost:3001",
+          "accept-encoding": "gzip, deflate, br",
+          "connection": "keep-alive"
+        },
+        "id": "647012f99548164574da88c5"
+      }
+    },
+    {
+      "path": "5c4d472c-2932-4ea4-a7cd-f6cc88b90c7a",
+      "data": {
+        "requestType": "PROPFIND",
+        "path": "5c4d472c-2932-4ea4-a7cd-f6cc88b90c7a",
+        "params": {
+          "0": "5c4d472c-2932-4ea4-a7cd-f6cc88b90c7a"
+        },
+        "headers": {
+          "content-type": "application/json",
+          "user-agent": "PostmanRuntime/7.31.3",
+          "accept": "*/*",
+          "postman-token": "4a5341c5-5868-4f73-a974-db2db4655328",
+          "host": "localhost:3001",
+          "accept-encoding": "gzip, deflate, br",
+          "connection": "keep-alive",
+          "content-length": "54"
+        },
+        "body": {
+          "crazy": "train",
+          "array": [
+            "og",
+            1,
+            2,
+            3
+          ]
+        },
+        "id": "647013029548164574da88cb"
+      }
+    },
+    {
+      "path": "4a7d6a59-bd0b-4344-8ee1-f00cc3461e2e",
+      "data": {
+        "requestType": "GET",
+        "path": "4a7d6a59-bd0b-4344-8ee1-f00cc3461e2e",
+        "params": {
+          "0": "4a7d6a59-bd0b-4344-8ee1-f00cc3461e2e"
+        },
+        "headers": {
+          "host": "localhost:3001",
+          "connection": "keep-alive",
+          "sec-ch-ua": "\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "dnt": "1",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "sec-fetch-site": "none",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-user": "?1",
+          "sec-fetch-dest": "document",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US,en;q=0.9",
+          "cookie": "rack.session=0sOOi6Q66T5kXNGrClp%2F0WwYPzRe2ZOCJKNRw7%2FutST6ysaoj%2Fl2f4ycycuffJ4l4PFuFyWYrcd6G7ITKtTdiErDXerRT5i8dNCw8T%2B9NGMicZ6i9V11A2mIQyD3zFr9kKUEBu0x%2BAbeZDiQsGKn0ibjbIL0qJNv76hyHu8wvSqLpEDz3%2BmdIoeRrwbXHGCc%2BMOo31pNtoZjsntNFoVIDZ1yQqH9GNcKuTq1k8GRdM6ct0tk8dyERrgMSehjEd%2B93wMtWoVuvfL9XFk9Ca9VSz%2FBMMuEbeYvqt23czcGv5k8A4vDyBEDgmHp%2BYodRAQC6%2BMxaoIpMd6HGTDa5EnxUAQIw5ygtasfUV1WI6WBBe%2Bi82l9LXObjcuGZEtuviSmCRib5H0p2gG7CIf617xRKjF817on%2FFJ0MgKb7udIp2w5TsViNHN%2F8uYXvziYFQeF--kV8f9xDqxUDbzXu4--sJ3F%2Fw47954Alg%2BnrXN6mw%3D%3D"
+        },
+        "id": "64ef542195878a03094b0d6e"
+      }
+    }
+  ]
+}
